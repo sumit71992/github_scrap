@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <base href="/">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/reset.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1>User Repository</h1>
+    </div>
+  </header>
+  <div class="i">
+    <div class="image">
+      <img src="1.png" alt="">
+    </div>
+  </div>
+  <div class="container" id="container">
+    <div class="main" id="myScroll">
+      <!-- <div class="hero"></div> -->
+      <!-- <%for(var i=0; i<data.length; i++){%> -->
+      
+        <!-- <div class="short" id="short<%=i%>" onclick="show('<%=i%>')">
+          <div class="item">
+            <div class="data">
+              <span class="name">Name:</span>
+            </div>
+            <div class="value">
+              <span class="name value"><%=data[i].full_name%></span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="data">
+              <span>open_issues_count:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].open_issues_count%></span>
+            </div>
+
+
+          </div>
+          <div class="item">
+            <div class="data">
+
+              <span>Url:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].url%></span>
+            </div>
+
+          </div>
+          <div class="item">
+            <div class="data">
+              <span>Language:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].language%></span>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="full full<%=i%>" id="full<%=i%>">
+          <div class="item">
+            <div class="data">
+              <span>License:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].license ? data[i].license.name : "MIT License"%></span>
+            </div>
+
+
+          </div>
+          <div class="item">
+            <div class="data">
+              <span>watchers_count:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].watchers%></span>
+            </div>
+
+
+          </div>
+          <div class="item">
+            <div class="data">
+              <span>Owner:</span>
+            </div>
+            <div class="value">
+              <span><%=data[i].owner.login%></span>
+            </div>
+
+
+          </div>
+          <div class="item">
+            <div class="data">
+              <span>Permissions:</span>
+            </div>
+            <div class="value">
+              <span>Admin: <%=data[i].permissions.admin%>, push: <%=data[i].permissions.push%>, pull:
+                <%=data[i].permissions.pull%></span>
+            </div>
+
+          </div>
+        </div> -->
+      
+      
+      
+
+      <!-- <%}%>  -->
+    </div>
+  </div>
+  <footer>
+    <div class="loading">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+  </footer>
+  
+  <script src="index.js"></script>
+  <script>
+    
+    function show(a) {
+      if (document.querySelector(".full" + a).style.display == "block")
+        document.querySelector(".full" + a).style.display = "none";
+      else
+        document.querySelector(".full" + a).style.display = "block";
+    }
+   
+  </script>
+</body>
+</html>

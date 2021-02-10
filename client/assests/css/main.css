@@ -1,0 +1,85 @@
+.header {
+  padding: 1rem 0;
+  background-color: rgba(47, 79, 79, 0.575);
+  box-shadow: 2px 2px 2px 2px black;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.i .image {
+  height: 10rem;
+  width: 10rem;
+}
+
+.i .image img {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container table {
+  background-color: rgba(1, 1, 29, 0.164);
+  margin-bottom: 1rem;
+  border-spacing: 50px;
+  padding: 10px;
+  width: 100%;
+}
+
+.container table tbody tr {
+  margin: 1rem;
+}
+
+.container table tbody tr td:nth-child() {
+  margin-right: 9rem;
+}
+
+.hero {
+  background-color: rgba(13, 17, 37, 0.199);
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+.hero .short:hover {
+  cursor: pointer;
+}
+
+.hero .short .items {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero .short .items .data {
+  width: 10rem;
+}
+
+.hero .full {
+  display: none;
+}
+
+.hero .full .items {
+  margin: 0.8rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero .full .items .data {
+  width: 10rem;
+}

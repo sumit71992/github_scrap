@@ -1,0 +1,75 @@
+.header{
+  padding: 1rem 0;
+   background-color: rgba(47, 79, 79, 0.575);
+   box-shadow: 2px 2px 2px 2px black;
+   margin-bottom: 1rem;
+   font-size: 2rem;
+   font-weight: 900;
+   h1{
+    text-align: center;
+    margin: 1rem; 
+  }
+ }
+ 
+ .i{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2.5rem;
+   .image{
+    height: 10rem;
+    width: 10rem;
+    img{
+      height: 100%;
+      width: 100%;
+      align-self: center;
+    }
+  }
+ }
+ .container{
+   display: flex;
+   justify-content: center;
+   table{
+    background-color: rgba(1, 1, 29, 0.164);
+    margin-bottom: 1rem;
+    border-spacing: 50px;
+    padding: 10px;
+    width: 100%;
+    tbody {
+      tr{
+        margin: 1rem;
+        td:nth-child(){
+          margin-right: 9rem;
+        }
+      }
+    }
+  }
+ }
+ .hero{
+   background-color: rgba(13, 17, 37, 0.199);
+   margin-bottom: 1rem;
+   padding: 2rem;
+   .short{
+     &:hover{
+       cursor: pointer;
+     }
+     .items{
+       margin: 1rem;
+       display: flex;
+       justify-content: flex-start;
+       .data{
+         width: 10rem;
+       }
+     }
+   }
+   .full{
+     display: none;
+    .items{
+      margin: 0.8rem;
+      display: flex;
+      justify-content: flex-start;
+      .data{
+        width: 10rem;
+      }
+    }
+  }
+ }
